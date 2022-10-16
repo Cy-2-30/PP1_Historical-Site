@@ -1,6 +1,6 @@
 ![Website logo](#)
 
-# Welcome Khoisan Tribe,
+# Welcome Khoisan People
 
 The website is about the historic origins of the Khoisan people who are known to be the first settlers of South Africa. The websites display historical story about the tribe of Khoisan people. This is portrayed in images, videos, and resources to learn more are given, in a form of, tourist attraction places to visit.
 
@@ -135,7 +135,7 @@ Choose warm colors that represent the Kalahari Desert and colors used by the Kho
     * Font Awesome icons  
 * __MS Word__  
     * To follow the project criteria [MS Word Link](https://1drv.ms/w/s!AmUCjOlYD3J1gT-ZwAOAR4oqOLui?e=zeSECy) 
-    * To create content flow for the website (during visualization process) [MS Word Link](#)
+    * To create content flow for the website (during visualization process) [MS Word Link](https://1drv.ms/w/s!AmUCjOlYD3J1gUNeK_S1VUmCxx5y?e=FLsb2Y)
     * To create the structure of ReadMe.md file (check spelling) [MS Word Link](https://1drv.ms/w/s!AmUCjOlYD3J1gUHl7VLYtU_G3w33?e=Dw62yb)  
 
  
