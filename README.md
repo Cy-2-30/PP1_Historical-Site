@@ -1,108 +1,164 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Website logo](#)
 
-Welcome Cy-2-30 (Dee),
+# Welcome Khoisan Tribe,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website is about the historic origins of the Khoisan people who are known to be the first settlers of South Africa. The websites display historical story about the tribe of Khoisan people. This is portrayed in images, videos, and resources to learn more are given, in a form of, tourist attraction places to visit.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Website look](#)
+[Website Link](#)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of Content
+1. Site Owner Goal 
+2. User Experience  
+3. User Story 
+4. Color Scheme Used 
+5. Wireframe 
+6. Features 
+7.
+8.
+9.
+10.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Site Owner Goal 
 
-Another blue button should appear to click: _Open Browser_.
+* The purpose of the website is to tell a story about the tribe of Khoisan people. 
+* Take the user on an informative journey about the historic origin of Khoisan People. 
+* Show historical true events with picture, videos, and existing tourist sites to visit to learn more.  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## User Experience  
 
-Another blue button should appear to click: _Open Browser_.
+* Take users on a historic journey about the Khoisan People.  
+* Display informative information, with descriptive pictures about caves, artefacts, traces they left behind.  
+* Educate the user who want to know more. 
+* Offer tourist attraction places that user can visit to learn more. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## User Story 
+* As a user I want to navigate the website that tells a story from beginning to end.  
+* I want to read information about the story told. 
+* I want to see pictures and videos of the story told.  
+* I want to be provided with resources to learn more.  
+* I want to know more about tourist attraction to discover more in person. 
+* I want to follow social media for more activities.  
+* I want to know the location of the office if I decide to visit in person. 
+* I want to get in touch with the website content provider. 
+* I want to give feedback or ask questions. 
+* I want contact details to post or write my feedback or questions 
+ 
+#Back to index :arrow_up:  
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Color Scheme Used 
+Choose warm colors that represent the Kalahari Desert and colors used by the Khoisan tribe. I used Hex formating for colors on CSS 
 
-------
+![Website look](#) 
 
-## Release History
+#.	 is used as a background color. 
+#784834 is used to highlight when hovering over responsive features.  
+#.          Is used for the header and footer background color. 
+#.          Is used for the font.  
+#.          is used to differentiate between different sections. 
+#.	used on the form.  
+#.	is used for shading the edges of the pictures 
+ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Wireframe 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![index look](#)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Index
+* Shows the brief description of the website. 
+* By explaining the purpose of the website. 
+* Displaying what to expect with responsive links. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![gallery look](#)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Gallery
+* Pictures telling a story with brief description. 
+* Tourist attractions for more information. 
+* Links to online resources for further knowledge.  
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![aboutus look](#)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### About Us
+* Feedback form, video, office postal address, contact details, and map location 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![mobile look](#)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Mobile version 
+* Responsive mobile version 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#Back to index :arrow_up:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Features  
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### General  
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+*Header and footer* – Are the same across all pages.  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![header look](#)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+*Header* – It contains navigation bar and responsive website logo 
 
-------
+![footer look](#)
 
-## FAQ about the uptime script
+*Footer* – It contains social media icons and "Educational Purposes" statement.  
 
-**Why have you added this script?**
+![home page look](#)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+*Home Page* – is brief description of the website and links to website content. 
 
-**How will this affect me?**
+![gallery look](#)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+*Gallery* – is pictures telling a story, with brief description and resources for more information. With tourist attraction to learn more in person. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![about us look](#) 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+*About us* – has a video, office location map, contact details, and a feedback form. 
 
-**So….?**
+![submistion page look](#)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+*Submission page* – with website logo leading to home page. 
 
-**Can I opt out?**
+#Back to index :arrow_up:
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Technologies used  
 
-**Anything more?**
+* __HTML__ – code structure  
+* __CSS__ – styling  
+* __JavaScript__  
+    * Hamburger menu bar for mobile version 
+    * Font Awesome icons  
+* __MS Word__  
+    * To follow the project criteria [MS Word Link](https://1drv.ms/w/s!AmUCjOlYD3J1gT-ZwAOAR4oqOLui?e=zeSECy) 
+    * To create content flow for the website (during visualization process) [MS Word Link](#)
+    * To create the structure of ReadMe.md file (check spelling) [MS Word Link](https://1drv.ms/w/s!AmUCjOlYD3J1gUHl7VLYtU_G3w33?e=Dw62yb)  
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+ 
+### Frameworks and libraries 
 
----
+* __Google Fonts__ – choice of font to go with theme 
+* __Font Awesome__ – social media icons 
+* __Gitpod__ – platform to write the code 
+* __Gitflow__ – progress of the creation of website 
+* __Github__ – code is displayed on 
+* __Balsamiq__ – created the framework 
+* __AM I responsive__ – used to check responsiveness of images 
+* __Heroku__ - deployed on the platform
+  
 
-Happy coding!
+### Testing 
+
+* __Responsive Design Checker__ – responsiveness  
+* __W3C markup Validator__ – code error  
+* __W3C CSS Validator__ – code error  
+* __Chrome Dev Tools__ – check and test CSS across building process 
+
+
+#Back to index :arrow_up:
+
+testing 
