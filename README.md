@@ -1,11 +1,11 @@
-![Website logo](#)
+![Website logo][def]
 
-# Welcome Khoisan People
+# Khoisan People 
 
 The website is about the historic origins of the Khoisan people who are known to be the first settlers of South Africa. The websites display historical story about the tribe of Khoisan people. This is portrayed in images, videos, and resources to learn more are given, in a form of, tourist attraction places to visit.
 
-![Website look](#)
-[Website Link](#)
+![Website look][def]
+[Website Link][def]
 
 
 ## Table of Content
@@ -54,7 +54,7 @@ The website is about the historic origins of the Khoisan people who are known to
 ## Color Scheme Used 
 Choose warm colors that represent the Kalahari Desert and colors used by the Khoisan tribe. I used Hex formating for colors on CSS 
 
-![Website look](#) 
+![Website look][def] 
 
 #.	 is used as a background color. 
 #784834 is used to highlight when hovering over responsive features.  
@@ -67,26 +67,26 @@ Choose warm colors that represent the Kalahari Desert and colors used by the Kho
 
 ## Wireframe 
 
-![index look](#)
+![../wireframe/home.png][def]
 
 ### Index
 * Shows the brief description of the website. 
 * By explaining the purpose of the website. 
 * Displaying what to expect with responsive links. 
 
-![gallery look](#)
+![gallery look][def]
 
 ### Gallery
 * Pictures telling a story with brief description. 
 * Tourist attractions for more information. 
 * Links to online resources for further knowledge.  
 
-![aboutus look](#)
+![aboutus look][def]
 
 ### About Us
 * Feedback form, video, office postal address, contact details, and map location 
 
-![mobile look](#)
+![mobile look][def]
 
 ### Mobile version 
 * Responsive mobile version 
@@ -99,27 +99,27 @@ Choose warm colors that represent the Kalahari Desert and colors used by the Kho
 
 *Header and footer* – Are the same across all pages.  
 
-![header look](#)
+![header look][def]
 
 *Header* – It contains navigation bar and responsive website logo 
 
-![footer look](#)
+![footer look][def]
 
 *Footer* – It contains social media icons and "Educational Purposes" statement.  
 
-![home page look](#)
+![home page look][def]
 
 *Home Page* – is brief description of the website and links to website content. 
 
-![gallery look](#)
+![gallery look][def]
 
 *Gallery* – is pictures telling a story, with brief description and resources for more information. With tourist attraction to learn more in person. 
 
-![about us look](#) 
+![about us look][def] 
 
 *About us* – has a video, office location map, contact details, and a feedback form. 
 
-![submistion page look](#)
+![submistion page look][def]
 
 *Submission page* – with website logo leading to home page. 
 
@@ -162,3 +162,5 @@ Choose warm colors that represent the Kalahari Desert and colors used by the Kho
 #Back to index :arrow_up:
 
 testing 
+
+[def]: #

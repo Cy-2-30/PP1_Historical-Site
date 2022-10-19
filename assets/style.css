@@ -1,0 +1,28 @@
+*{
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: #f0eec9;
+    font-family: ;
+    font-size: 16px;
+    font-weight: 350;
+    
+  } 
+ 
+  header, footer{
+    display:flex;
+    display: -webkit-flex-;
+  }
+
+ #hero{
+    -webkit-flex: initial;
+    flex: initial;
+    background-color: #BA5203;
+    text-align: left;
+    padding: 20px;
+  }
+  h1{
+    color: #2A1B09;
+  }    background-color:;
