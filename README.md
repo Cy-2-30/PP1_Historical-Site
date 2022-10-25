@@ -1,4 +1,4 @@
-![Website logo][def]
+![Website logo](assets/images/logo.png)
 
 # Khoisan People 
 
@@ -54,37 +54,38 @@ The website is about the historic origins of the Khoisan people who are known to
 ## Color Scheme Used 
 Choose soft colors that represent the safari and nature that surround the Khoisan people. I used Hex formating for colors on CSS 
 
-![Color Palette][assets/images/color-palette/color-palette.png] 
+![Color Palette](assets/images/color-palette/color-palette.png) 
 
 * #F0EEC9   Is used as a background color. 
 * #DCAA68   Is used to highlight when hovering over responsive features.  
 * #AE7F4D   Is used for the header and footer background color. 
 * #180A00   Is used for the font.  
 * #867D2C   Used on the form.  
+* #FFF      Font color on footer and on hover for the menu bar
  
 
 ## Wireframe 
 
-![../wireframe/home.png][def]
+![Home](assets/images/wireframe/home.png)
 
 ### Index
 * Shows the brief description of the website. 
 * By explaining the purpose of the website. 
 * Displaying what to expect with responsive links. 
 
-![gallery look][def]
+![Gallery](assets/images/wireframe/gallery.png)
 
 ### Gallery
 * Pictures telling a story with brief description. 
 * Tourist attractions for more information. 
 * Links to online resources for further knowledge.  
 
-![aboutus look][def]
+![About](assets/images/wireframe/about-us.png)
 
 ### About Us
 * Feedback form, video, office postal address, contact details, and map location 
 
-![mobile look][def]
+![Mobile](assets/images/wireframe/mobile-view.png)
 
 ### Mobile version 
 * Responsive mobile version 
