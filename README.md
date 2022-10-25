@@ -52,17 +52,15 @@ The website is about the historic origins of the Khoisan people who are known to
 
 
 ## Color Scheme Used 
-Choose warm colors that represent the Kalahari Desert and colors used by the Khoisan tribe. I used Hex formating for colors on CSS 
+Choose soft colors that represent the safari and nature that surround the Khoisan people. I used Hex formating for colors on CSS 
 
-![Website look][def] 
+![Color Palette][assets/images/color-palette/color-palette.png] 
 
-#.	 is used as a background color. 
-#784834 is used to highlight when hovering over responsive features.  
-#.          Is used for the header and footer background color. 
-#.          Is used for the font.  
-#.          is used to differentiate between different sections. 
-#.	used on the form.  
-#.	is used for shading the edges of the pictures 
+* #F0EEC9   Is used as a background color. 
+* #DCAA68   Is used to highlight when hovering over responsive features.  
+* #AE7F4D   Is used for the header and footer background color. 
+* #180A00   Is used for the font.  
+* #867D2C   Used on the form.  
  
 
 ## Wireframe 
