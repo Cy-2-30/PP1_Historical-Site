@@ -20,13 +20,11 @@
   background-color: #867D2C;
   height: 100px;
   padding: 0px;
-  }
-  h1{
-   
-  }    
+  }  
   Footer{
     color: #FFF;
   }
+  /*about us page*/
   /*form syle*/
   form{
     border: 2px solid #867D2C;
@@ -84,8 +82,8 @@
     border-radius: 2px;
     padding: 2px;
     font-weight: bold; 
-    color: #FFF 
+    color: #FFF;
   }
   input:hover{
-    color:#DCAA68
+    color:#DCAA68;
   }
