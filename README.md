@@ -149,6 +149,13 @@ Choose soft colors that represent the safari and nature that surround the Khoisa
 * __AM I responsive__ – used to check responsiveness of images 
 * __Heroku__ - deployed on the platform
   
+### Acknowledgement 
+* Content 
+    * npr.org
+    * Wikipedia
+    * medium.com 
+    * Youtube
+    * 
 
 ### Testing 
 
