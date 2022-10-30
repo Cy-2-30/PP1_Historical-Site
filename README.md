@@ -156,7 +156,16 @@ Choose soft colors that represent the safari and nature that surround the Khoisa
     * medium.com 
     * Youtube
     * 
-
+* Images
+    * flickr.com
+    * stock.adobe.com
+    * istockphoto.com
+    * Canvas
+* Watermark remover
+    * apeaksoft.com
+* Image shrinker 
+    * tinypng.com
+    
 ### Testing 
 
 * __Responsive Design Checker__ – responsiveness  
