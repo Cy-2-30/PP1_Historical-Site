@@ -21,10 +21,28 @@
   height: 100px;
   padding: 0px;
   }
- 
   Footer{
     color: #FFF;
   }
+  /*link style */
+  a{
+    text-decoration: none;
+    cursor: auto;
+    font-style: normal;
+  }
+  a:link, a:visited {
+    color: #54441B;
+    font-style: italic;
+  }
+  /* menu bar*/
+.menu-list a:hover {
+  background-color: #DCAA68;
+  color: #FFF;
+}
+.menu-list > a:visited important{
+  color: #54441B;
+  font-style: normal;
+}
   /*form syle*/
   form{
     border: 2px solid #867D2C;
