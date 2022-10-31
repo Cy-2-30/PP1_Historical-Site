@@ -129,50 +129,40 @@ Choose soft colors that represent the safari and nature that surround the Khoisa
 
 * __HTML__ – code structure  
 * __CSS__ – styling  
-* __JavaScript__  
-    * Hamburger menu bar for mobile version 
-    * Font Awesome icons  
-* __MS Word__  
-    * To follow the project criteria [MS Word Link](https://1drv.ms/w/s!AmUCjOlYD3J1gT-ZwAOAR4oqOLui?e=zeSECy) 
-    * To create content flow for the website (during visualization process) [MS Word Link](https://1drv.ms/w/s!AmUCjOlYD3J1gUNeK_S1VUmCxx5y?e=FLsb2Y)
-    * To create the structure of ReadMe.md file (check spelling) [MS Word Link](https://1drv.ms/w/s!AmUCjOlYD3J1gUHl7VLYtU_G3w33?e=Dw62yb)  
+* __MS Word__  - to visualise and put content ideas down
 
- 
 ### Frameworks and libraries 
-
 * __Google Fonts__ – choice of font to go with theme 
 * __Font Awesome__ – social media icons 
 * __Gitpod__ – platform to write the code 
-* __Gitflow__ – progress of the creation of website 
-* __Github__ – code is displayed on 
+* __Gitflow__ – progress for the creation of website 
+* __Github__ – file code is displayed
 * __Balsamiq__ – created the framework 
-* __AM I responsive__ – used to check responsiveness of images 
-* __Heroku__ - deployed on the platform
-  
+* __Heroku__ - deployed the website
+
 ### Acknowledgement 
 * Content 
     * npr.org
     * Wikipedia
     * medium.com 
     * Youtube
-    * 
 * Images
     * flickr.com
     * stock.adobe.com
     * istockphoto.com
     * Canvas
-* Watermark remover
-    * apeaksoft.com
-* Image shrinker 
-    * tinypng.com
-    
+* Watermark remover - used apeaksoft.com to remove on images
+* Image Compressor - used tinypng.com to compress images
+* w3schools.com - to check the html structure 
+* coolors.co - choosing the color palette
+
 ### Testing 
 
 * __Responsive Design Checker__ – responsiveness  
 * __W3C markup Validator__ – code error  
 * __W3C CSS Validator__ – code error  
 * __Chrome Dev Tools__ – check and test CSS across building process 
-
+* __AM I responsive__ – used to check responsiveness of images 
 
 #Back to index :arrow_up:
 
