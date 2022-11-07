@@ -18,11 +18,15 @@
  #hero{
   position:relative;
   background-color: #867D2C;
-  height: 100px;
   padding: 0px;
   }
   Footer{
     color: #FFF;
+  }
+  .images{
+    width: 580px; 
+    height: 300px;
+    border-radius: ;
   }
   /*link style */
   a{
@@ -33,6 +37,12 @@
   #external-links > a:link, a:visited {
     color: #54441B;
   }
+   /* video and map*/
+iframe{
+  width: 560px;
+  height: 315px;
+}
+
   /* menu bar*/
 .menu-list a:hover {
   background-color: #DCAA68;
@@ -45,7 +55,8 @@
   /*form syle*/
   form{
     border: 2px solid #867D2C;
-    width: 450px;
+    border-radius: 5px;
+    width: 560px;
     height: 350px;
   }
   fieldset{
