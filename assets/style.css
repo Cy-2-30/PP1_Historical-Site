@@ -12,6 +12,13 @@
     font-size: 16px;
     font-weight: 350;
   } 
+  a{
+    color: #F0EEC9;
+  }
+  .menu-list > a{
+    font-family: inherit;
+    
+  }
   header, footer{
     background-color: #AE7F4D;
   }
@@ -49,9 +56,13 @@
     cursor: auto;
     font-style: normal;
   }
-  #external-links > a:link, a:visited {
-    color: #54441B;
+  .resource-links a:hover{
+    text-decoration: underline;
+    background-color: #DCAA68;
   }
+  /* #external-links > a:link, a:visited {
+    color: #54441B;
+  }*/
    /* video and map*/
 iframe{
   width: 560px;
@@ -63,19 +74,20 @@ iframe{
   background-color: #DCAA68;
   color: #FFF;
 }
-.menu-list > a:visited important{
+/*.menu-list > a:visited important{
   color: #54441B;
   font-style: normal;
-}
+}*/
+
 /* social media icons*/
 .fontawesome-icons{
   display: inline;
 }
 .facebook-icon{
-  color: #3b5a9b;
+  color: #3B5A9B;
 }
-.twitter-icon a{
-  color: #2b97f1;
+.twitter-icon{
+  color: #2B97F1;
 }
 .instagram-icon{
   color: #f7120e;
