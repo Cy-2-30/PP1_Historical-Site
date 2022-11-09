@@ -30,9 +30,8 @@
     cursor: auto;
     font-style: normal;
   }
-  a:link, a:visited {
+  #external-links > a:link, a:visited {
     color: #54441B;
-    font-style: italic;
   }
   /* menu bar*/
 .menu-list a:hover {

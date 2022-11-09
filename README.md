@@ -2,23 +2,42 @@
 
 # Khoisan People 
 
-The website is about the historic origins of the Khoisan people who are known to be the first settlers of South Africa. The websites display historical story about the tribe of Khoisan people. This is portrayed in images, videos, and resources to learn more are given, in a form of, tourist attraction places to visit.
+The website is about the historic origins of the Khoisan people who are known to be the first settlers of South Africa. The websites display historical story about the tribe of Khoisan people. This is portrayed in content, images, video, and resources to learn more are given, in a form of, tourist attraction places to visit. Last, links to other websites for more information is given. 
 
 ![Website look][def]
 [Website Link][def]
 
 
 ## Table of Content
-1. Site Owner Goal 
-2. User Experience  
-3. User Story 
-4. Color Scheme Used 
-5. Wireframe 
-6. Features 
-7.
-8.
-9.
-10.
+1. [Site Owner Goal](#site-owner-goal)
+2. [User Experience](#user-experience)  
+3. [Color Scheme Used](#color-scheme-used)
+4. [Typography](#typography)
+5. [Wireframe](#wireframe)
+    1. [Home](#home)
+    2. [Gallery](#gallery)
+    3. [About Us](#about-us)
+    4. [Mobile version](#mobile-version)
+6. [Features](#features)
+    1. [General](#general)
+7. [Technologies](#technologies)
+    1. [Code Language](#technologies)
+    2. [Frameworks and libraries](#technologies)
+    3. [General](#technologies)
+    4. [Technologies used for testing](#)
+8. [Testing](#testing)
+    1. [Testing User Stories](#)
+    2. [Code Validation](#)
+    3. [Accessibility](#)
+    4. [Manual Testing](#)
+    5. [Bug found during testing](#)
+9. 
+10. 
+11. [Future Addition](#future-addition)
+12. 
+13. [Acknowledgement](#acknowledgement)
+14. 
+15. [Frameworks and libraries](#frameworks-and-libraries)
 
 
 ## Site Owner Goal 
@@ -48,99 +67,105 @@ The website is about the historic origins of the Khoisan people who are known to
 * I want to give feedback or ask questions. 
 * I want contact details to post or write my feedback or questions 
  
-#Back to index :arrow_up:  
+[Table of Content](#table-of-content) :arrow_up:  
 
 
 ## Color Scheme Used 
 Choose soft colors that represent the safari and nature that surround the Khoisan people. I used Hex formating for colors on CSS 
 
-![Color Palette](assets/images/color-palette/color-palette.png) 
+![Color Palette](assets/color-palette/color-palette.png) 
 
-* #F0EEC9   Is used as a background color. 
-* #DCAA68   Is used to highlight when hovering over responsive features.  
-* #AE7F4D   Is used for the header and footer background color. 
-* #180A00   Is used for the font.  
-* #867D2C   Used on the form.  
-* #FFF      Font color on footer and on hover for the menu bar
- 
+* __#F0EEC9__ - Is used as a background color. 
+* __#DCAA68__ - Is used to highlight when hovering over responsive features.  
+* __#AE7F4D__ - Is used for the header and footer background color. 
+* __#180A00__ - Is used for the font.  
+* __#867D2C__ - Used on the form.  
+* __#54441B__ - Used on visited links
+* __#FFF__ - Font color on footer and on hover for the menu bar
+
+
+## Typography
+Google fonts **Courgette** pared with **Libre Baskerville** has been used and **serif**  used as a fall back. 
+
 
 ## Wireframe 
 
-![Home](assets/images/wireframe/home.png)
-
-### Index
+![Home Page](assets/wireframe%20/home.png) 
+### Home
 * Shows the brief description of the website. 
 * By explaining the purpose of the website. 
-* Displaying what to expect with responsive links. 
+* Giving a brief explaination about the website content. 
 
-![Gallery](assets/images/wireframe/gallery.png)
-
+![Gallery Page](assets/wireframe%20/gallery.png) 
 ### Gallery
 * Pictures telling a story with brief description. 
 * Tourist attractions for more information. 
 * Links to online resources for further knowledge.  
 
-![About](assets/images/wireframe/about-us.png)
-
+![About Us Page](assets/wireframe%20/about-us.png) 
 ### About Us
-* Feedback form, video, office postal address, contact details, and map location 
+* Shows a feedback form, video, office postal address, contact details, and map location. 
 
-![Mobile](assets/images/wireframe/mobile-view.png)
-
+![Mobile View](assets/wireframe%20/mobile-view.png) 
 ### Mobile version 
 * Responsive mobile version 
 
-#Back to index :arrow_up:
+[Table of Content](#table-of-content) :arrow_up:
 
-## Features  
+
+## Features 
+
+All the information displayed on the website and technologies used to create it.  
 
 ### General  
 
 *Header and footer* – Are the same across all pages.  
 
-![header look][def]
+![Header and Footer](assets/website-images/) 
 
-*Header* – It contains navigation bar and responsive website logo 
+*Header* – It contains navigation bar and responsive website logo - leading to home page across all pages.
 
-![footer look][def]
+![Footer](assets/website-images/) 
 
 *Footer* – It contains social media icons and "Educational Purposes" statement.  
 
-![home page look][def]
+![Home Page](assets/website-images/)
 
-*Home Page* – is brief description of the website and links to website content. 
+*Home Page* – is brief description of the website and content. 
 
-![gallery look][def]
+![Gallery Page](assets/website-images/)
 
-*Gallery* – is pictures telling a story, with brief description and resources for more information. With tourist attraction to learn more in person. 
+*Gallery* – is pictures telling a story, with brief description and links for further resources. And tourist attraction to learn more in person. 
 
-![about us look][def] 
+![About Us](assets/website-images/)
 
 *About us* – has a video, office location map, contact details, and a feedback form. 
 
-![submistion page look][def]
+![Submission Page](assets/website-images/)
 
-*Submission page* – with website logo leading to home page. 
+*Submission page* – a "Thank you" for submitting form statement. 
 
-#Back to index :arrow_up:
+[Table of Content](#table-of-content) :arrow_up:
 
 
-### Technologies used  
+## Technologies 
 
+### Code Language
 * __HTML__ – code structure  
 * __CSS__ – styling  
-* __MS Word__  - to visualise and put content ideas down
 
 ### Frameworks and libraries 
-* __Google Fonts__ – choice of font to go with theme 
-* __Font Awesome__ – social media icons 
-* __Gitpod__ – platform to write the code 
+
+* [Google Fonts](https://fonts.google.com/)– choice of font to go with theme 
+* [Font Awesome](https://fontawesome.com/)– social media icons 
+* [GitPod](https://gitpod.io/)– platform to write the code 
 * __Gitflow__ – progress for the creation of website 
-* __Github__ – file code is displayed
-* __Balsamiq__ – created the framework 
+* [GitHub](https://github.com/)– file code is displayed
+* [Balsamiq](https://balsamiq.com/)– created the framework 
 * __Heroku__ - deployed the website
 
-### Acknowledgement 
+### General  
+
 * Content 
     * npr.org
     * Wikipedia
@@ -151,21 +176,46 @@ Choose soft colors that represent the safari and nature that surround the Khoisa
     * stock.adobe.com
     * istockphoto.com
     * Canvas
-* Watermark remover - used apeaksoft.com to remove on images
-* Image Compressor - used tinypng.com to compress images
-* w3schools.com - to check the html structure 
-* coolors.co - choosing the color palette
+* Code
+    * [Stack Overflow](https://stackoverflow.com/) 
+    * [W3Schools](https://www.w3schools.com/) 
+    * 
+* Watermark remover - used apeaksoft.com to remove watermark on images.
+* Image Compressor - used [TinyPNG](https://tinypng.com/) to compress images.
+* coolors.co - choosing the color palette.
+* All platform look - used [Am I Responsive?](http://ami.responsivedesign.is/#) to create a sample accross all view point from different sreen size 
 
-### Testing 
-
-* __Responsive Design Checker__ – responsiveness  
-* __W3C markup Validator__ – code error  
-* __W3C CSS Validator__ – code error  
-* __Chrome Dev Tools__ – check and test CSS across building process 
+### Technologies used for testing 
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/) – responsiveness  
+* [W3C Markup Validator](https://validator.w3.org/)– code error  
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)– code error  
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools)– check and test CSS across building process 
 * __AM I responsive__ – used to check responsiveness of images 
 
-#Back to index :arrow_up:
+[Table of Content](#table-of-content) :arrow_up:
 
-testing 
 
-[def]: #
+## Testing 
+
+The testing story accross all pages.
+
+### Testing User Stories
+
+
+### Code Validation
+
+
+
+### Accessibility
+
+
+
+### Manual Testing
+
+### Bug found during testing  
+
+Bugs    | Resolution    | Not Resolved
+---     | ---           | ---
+*       |               | 
+*       |               |
+*       |               |
