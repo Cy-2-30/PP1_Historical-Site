@@ -26,7 +26,22 @@
   .images{
     width: 580px; 
     height: 300px;
-    border-radius: ;
+    border-radius: 5px;
+  }
+  .dance-image{
+    height: ;
+  }
+  .gallery-images{
+    width: 480px; 
+    height: 380px;
+    border-radius: 8px;
+  }
+  .link-image{
+    width: 150px;
+    height: 80px;
+  }
+  .link-img a:hover{
+    background-color:#DCAA68;
   }
   /*link style */
   a{
