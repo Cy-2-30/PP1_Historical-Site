@@ -18,11 +18,30 @@
  #hero{
   position:relative;
   background-color: #867D2C;
-  height: 100px;
   padding: 0px;
   }
   Footer{
     color: #FFF;
+  }
+  .images{
+    width: 580px; 
+    height: 300px;
+    border-radius: 5px;
+  }
+  .dance-image{
+    height: ;
+  }
+  .gallery-images{
+    width: 480px; 
+    height: 380px;
+    border-radius: 8px;
+  }
+  .link-image{
+    width: 150px;
+    height: 80px;
+  }
+  .link-img a:hover{
+    background-color:#DCAA68;
   }
   /*link style */
   a{
@@ -33,6 +52,12 @@
   #external-links > a:link, a:visited {
     color: #54441B;
   }
+   /* video and map*/
+iframe{
+  width: 560px;
+  height: 315px;
+}
+
   /* menu bar*/
 .menu-list a:hover {
   background-color: #DCAA68;
@@ -42,10 +67,30 @@
   color: #54441B;
   font-style: normal;
 }
+/* social media icons*/
+.fontawesome-icons{
+  display: inline;
+}
+.facebook-icon{
+  color: #3b5a9b;
+}
+.twitter-icon a{
+  color: #2b97f1;
+}
+.instagram-icon{
+  color: #f7120e;
+}
+.linkedin-icon{
+  color: #006599;
+}
+.fontawesome-icons a:hover{
+  color:#FFF
+}
   /*form syle*/
   form{
     border: 2px solid #867D2C;
-    width: 450px;
+    border-radius: 5px;
+    width: 560px;
     height: 350px;
   }
   fieldset{
@@ -62,44 +107,42 @@
     width: 140px;
     text-align: right;
   }
-  input[type="text"]{
-    border: 2px solid #867D2C ;
-    height: 20px;
-    padding: 5px;
-    margin: 5px;
-    width:fit-content;
-  }
-  input[type="email"]{
-    border: 2px solid #867D2C;
-    height: 20px;
-    padding: 5px;
-    margin: 5px;
-  }
-  textarea {
-    width: 100%;
-    height: 50px;
-    padding: 12px 15px;
-    box-sizing: border-box;
+  .input-style{
     border: 2px solid #867D2C;
     border-radius: 4px;
     background-color: #FFF;
+    height: 20px;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    
+  }
+  .input[type="text"]{
+    
+  }
+  input[type="email"]{
+
+  }
+  textarea {
+    width: 100px;
+    height: 50px;
+    padding: 12px 15px;
+    box-sizing: border-box;
     resize: vertical; 
   }
-  input[type="submit"]{
+  .button{
     border: #DCAA68;
     background-color: #867D2C;
     border-radius: 2px;
     padding: 2px;
-    font-weight: bold; 
-    color: #FFF ;
+    font-weight: bold;
+    color: #FFF ; 
+  }
+  input[type="submit"]{
+    
   }
   input[type="reset"]{
-    border: #DCAA68;
-    background-color: #867D2C;
-    border-radius: 2px;
-    padding: 2px;
-    font-weight: bold; 
-    color: #FFF 
+    
   }
   input:hover{
     color:#DCAA68
