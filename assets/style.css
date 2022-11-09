@@ -52,6 +52,25 @@ iframe{
   color: #54441B;
   font-style: normal;
 }
+/* social media icons*/
+.fontawesome-icons{
+  display: inline;
+}
+.facebook-icon{
+  color: #3b5a9b;
+}
+.twitter-icon a{
+  color: #2b97f1;
+}
+.instagram-icon{
+  color: #f7120e;
+}
+.linkedin-icon{
+  color: #006599;
+}
+.fontawesome-icons a:hover{
+  color:#FFF
+}
   /*form syle*/
   form{
     border: 2px solid #867D2C;
