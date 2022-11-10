@@ -11,65 +11,24 @@
     color: #180A00;
     font-size: 16px;
     font-weight: 350;
-  } 
-  a{
-    color: #F0EEC9;
-  }
-  .menu-list > a{
-    font-family: inherit;
-    
-  }
+  }  
   header, footer{
     background-color: #AE7F4D;
+  } 
+  a{
+    text-decoration: none;
+    cursor: auto;
   }
+/*header style*/
  #hero{
   position:relative;
   background-color: #867D2C;
   padding: 0px;
-  }
-  Footer{
-    color: #FFF;
-  }
-  .images{
-    width: 580px; 
-    height: 300px;
-    border-radius: 5px;
-  }
-  .dance-image{
-    height: ;
-  }
-  .gallery-images{
-    width: 480px; 
-    height: 380px;
-    border-radius: 8px;
-  }
-  .link-image{
-    width: 150px;
-    height: 80px;
-  }
-  .link-img a:hover{
-    background-color:#DCAA68;
-  }
-  /*link style */
-  a{
-    text-decoration: none;
-    cursor: auto;
-    font-style: normal;
-  }
-  .resource-links a:hover{
-    text-decoration: underline;
-    background-color: #DCAA68;
-  }
-  /* #external-links > a:link, a:visited {
-    color: #54441B;
-  }*/
-   /* video and map*/
-iframe{
-  width: 560px;
-  height: 315px;
-}
-
-  /* menu bar*/
+  } 
+  .menu-list a{
+    font-family: inherit;
+    color: #F0EEC9;
+  }  
 .menu-list a:hover {
   background-color: #DCAA68;
   color: #FFF;
@@ -78,8 +37,10 @@ iframe{
   color: #54441B;
   font-style: normal;
 }*/
-
-/* social media icons*/
+  /*footer style*/
+  Footer{
+    color: #FFF;
+  }
 .fontawesome-icons{
   display: inline;
 }
@@ -97,6 +58,50 @@ iframe{
 }
 .fontawesome-icons a:hover{
   color:#FFF
+}
+  /*home page body style*/
+  .images{
+    width: 580px; 
+    height: 300px;
+    border-radius: 5px;
+  }
+  .dance-image{
+    height: ;
+  }
+  /*gallery page style*/
+  .gallery-images{
+    width: 480px; 
+    height: 380px;
+    border-radius: 8px;
+  }
+  .link-image{
+    width: 150px;
+    height: 80px;
+  }
+  .link-image:hover{
+    background-color: #DCAA68;
+    border: 2px solid #54441B;
+     }
+  #external-links a{
+      color: #54441B;
+      font-style: italic;
+  }
+ .resource-links:hover{
+      text-decoration: underline 5px solid #DCAA68;
+      
+ }
+  /*.resource-links a:hover{
+    text-decoration: underline;
+    background-color: #DCAA68;
+  }*/
+
+  /* #external-links > a:link, a:visited {
+    color: #54441B;
+  }*/
+  /*about us page style*/
+iframe{
+  width: 560px;
+  height: 315px;
 }
   /*form syle*/
   form{
