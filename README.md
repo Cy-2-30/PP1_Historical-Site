@@ -123,7 +123,7 @@ All the information displayed on the website and technologies used to create it.
 
 ![Header and Footer](assets/website-images/) 
 
-*Header* – It contains navigation bar and responsive website logo - leading to home page across all pages.
+*Header* – It contains navigation bar and responsive website logo - leading to home page across all pages. In the initially design the logo and menu bar were supposed be opposite each other, but because of lack of knowledge and time I had to make two seperate containers for both. This was easier to design. Because of this choice the two are on the opposite end of view port to each other. 
 
 ![Footer](assets/website-images/) 
 

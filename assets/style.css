@@ -53,28 +53,33 @@
   /*footer style*/
   Footer{
     color: #FFF;
-    text-align: center;
-    
   }
 .fontawesome-icons{
-  font-size: 120%;
-  line-height: 30px;
+  letter-spacing: 8px;
+  font-size: 150%;
+  line-height: 2px;
+  text-align: center;
+  padding: 15px 0 10px 0;
 }
-.facebook-icon{
-  color: #3B5A9B;
-}
-.twitter-icon{
-  color: #2B97F1;
-}
-.instagram-icon{
-  color: #f7120e;
-}
-.linkedin-icon{
-  color: #006599;
-}
-.fontawesome-icons a:hover{
+.fontawesome-icons a{
   color:#FFF
 }
+.facebook-icon :hover{
+  color: #3B5A9B;
+}
+.twitter-icon :hover{
+  color: #2B97F1;
+}
+.instagram-icon :hover{
+  color: #f7120e;
+}
+.linkedin-icon :hover{
+  color: #006599;
+}
+.site-purpose{
+    text-align: center;
+    padding: 0 0 10px 0;
+  }
   /*home page body style*/
   .images{
     width: 580px; 
