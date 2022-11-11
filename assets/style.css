@@ -12,6 +12,9 @@
     font-size: 16px;
     font-weight: 350;
   }  
+  hr{
+    border: 1px solid #54441B;
+  }
   header, footer{
     background-color: #AE7F4D;
   } 
