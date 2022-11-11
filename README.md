@@ -125,9 +125,9 @@ All the information displayed on the website and technologies used to create it.
 
 *Header* – It contains navigation bar and responsive website logo - leading to home page across all pages. In the initially design the logo and menu bar were supposed be opposite each other, but because of lack of knowledge and time I had to make two seperate containers for both. This was easier to design. Because of this choice the two are on the opposite end of view port to each other. 
 
-![Footer](assets/website-images/) 
+![Footer](assets/images/website-images/footer.jpg) 
 
-*Footer* – It contains social media icons and "Educational Purposes" statement.  
+*Footer* – It contains social media icons and "Educational Purposes" statement. The social media icons are responsive on hover as per their respective logo colors. All lead to their respective sites.  On the initial design they were meant to be inline but because of limited knowledge and time constrains I have set on center. 
 
 ![Home Page](assets/website-images/)
 
