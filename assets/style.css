@@ -19,12 +19,25 @@
     text-decoration: none;
     cursor: auto;
   }
+  /*media query setting*/
+  @media only screen and (min-width: 600px) {
+  }
+  @media only screen and (min-width: 1080px) {
+  }
+
 /*header style*/
  #hero{
   position:relative;
   background-color: #867D2C;
   padding: 0px;
   } 
+  #menu-bar{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 75px;
+  }
+
   .menu-list a{
     font-family: inherit;
     color: #F0EEC9;
@@ -40,9 +53,12 @@
   /*footer style*/
   Footer{
     color: #FFF;
+    text-align: center;
+    
   }
 .fontawesome-icons{
-  display: inline;
+  font-size: 120%;
+  line-height: 30px;
 }
 .facebook-icon{
   color: #3B5A9B;
@@ -66,7 +82,12 @@
     border-radius: 5px;
   }
   .dance-image{
+    background-size: 100%;
     height: ;
+  }
+  .image-container{
+    width: 100%;
+    height: auto;
   }
   /*gallery page style*/
   .gallery-images{
@@ -90,14 +111,6 @@
       text-decoration: underline 5px solid #DCAA68;
       
  }
-  /*.resource-links a:hover{
-    text-decoration: underline;
-    background-color: #DCAA68;
-  }*/
-
-  /* #external-links > a:link, a:visited {
-    color: #54441B;
-  }*/
   /*about us page style*/
 iframe{
   width: 560px;
