@@ -32,12 +32,12 @@
   padding: 0px;
   } 
   #menu-bar{
-    display: grid;
-    display: inline;
-    row-gap: 5px;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 75px;
   }
+
   .menu-list a{
     font-family: inherit;
     color: #F0EEC9;
@@ -53,9 +53,12 @@
   /*footer style*/
   Footer{
     color: #FFF;
+    text-align: center;
+    
   }
 .fontawesome-icons{
-  display: inline;
+  font-size: 120%;
+  line-height: 30px;
 }
 .facebook-icon{
   color: #3B5A9B;
