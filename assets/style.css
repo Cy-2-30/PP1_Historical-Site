@@ -37,7 +37,6 @@
     letter-spacing: 3px;
     line-height: 75px;
   }
-
   .menu-list a{
     font-family: inherit;
     color: #F0EEC9;
@@ -45,6 +44,9 @@
 .menu-list a:hover {
   background-color: #DCAA68;
   color: #FFF;
+}
+hr{
+  border: 1px solid #54441B;
 }
 /*.menu-list > a:visited important{
   color: #54441B;
