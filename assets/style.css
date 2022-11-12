@@ -16,8 +16,10 @@
     background-color: #AE7F4D;
   } 
   a{
+    position: relative;
     text-decoration: none;
     cursor: auto;
+    z-index: 1;
   }
   /*media query setting*/
   @media only screen and (min-width: 600px) {
@@ -32,19 +34,27 @@
   padding: 0px;
   } 
   #menu-bar{
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     letter-spacing: 3px;
     line-height: 75px;
+    padding-right: 15px;
+  }
+  .menu-list li{
+    display: inline-block;
+    margin-inline: 25px;
   }
   .menu-list a{
     font-family: inherit;
     color: #F0EEC9;
   }  
 .menu-list a:hover {
-  background-color: #DCAA68;
+  text-decoration: 5px underline #DCAA68;
   color: #FFF;
+  padding: 5px;
+  margin: 5px;
 }
+
 hr{
   border: 1px solid #54441B;
 }

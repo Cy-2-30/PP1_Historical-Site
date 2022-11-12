@@ -127,7 +127,7 @@ All the information displayed on the website and technologies used to create it.
 
 ![Footer](assets/images/website-screenshots/footer.jpg) 
 
-*Footer* – It contains social media icons and "Educational Purposes" statement. On the initial design it was meant to all be inline. However for the lack of knowledge and time constrains I have made them to be on the center.  
+*Footer* – It contains social media icons and "Educational Purposes" statement. On the initial design it was meant to all be inline. However for the lack of knowledge and time constrains I have made the statement and social media icons to be on the center.  
 
 ![Home Page](assets/website-images/)
 
