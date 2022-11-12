@@ -40,21 +40,16 @@
     line-height: 75px;
     padding-right: 15px;
   }
-  .menu-list li{
+  .menu-list a{
     display: inline-block;
     margin-inline: 25px;
-  }
-  .menu-list a{
     font-family: inherit;
     color: #F0EEC9;
-  }  
+  }
 .menu-list a:hover {
   text-decoration: 5px underline #DCAA68;
   color: #FFF;
-  padding: 5px;
-  margin: 5px;
 }
-
 hr{
   border: 1px solid #54441B;
 }
@@ -62,6 +57,18 @@ hr{
   color: #54441B;
   font-style: normal;
 }*/
+/*body style home page*/
+.container{
+  display: inline-block;
+}
+.list-purpose li{
+  list-style-type: circle;
+}
+.image-container{
+  position: relative;
+  right:150px;
+  top: 5px;
+}
   /*footer style*/
   Footer{
     color: #FFF;
