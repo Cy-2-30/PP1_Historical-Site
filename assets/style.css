@@ -11,6 +11,7 @@
     color: #180A00;
     font-size: 16px;
     font-weight: 350;
+    min-height: 100vh;
   }  
   header, footer{
     background-color: #AE7F4D;
@@ -23,6 +24,7 @@
   }
   /*media query setting*/
   @media only screen and (min-width: 600px) {
+    
   }
   @media only screen and (min-width: 1080px) {
   }
@@ -71,6 +73,7 @@ hr{
 }
   /*footer style*/
   Footer{
+    position: sticky;
     color: #FFF;
   }
 .fontawesome-icons{
@@ -110,8 +113,8 @@ hr{
     height: ;
   }
   .image-container{
-    width: 100%;
-    height: auto;
+    width: 50vw;
+    height: 50vw;
   }
   /*gallery page style*/
   .gallery-images{
