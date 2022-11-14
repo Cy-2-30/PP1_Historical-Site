@@ -203,8 +203,10 @@ The testing story accross all pages.
 
 
 ### Code Validation
-
-
+![Home Page Code](assets/images/website-screenshots/test-results/homepage-results.png)
+![Home Page Code](assets/images/website-screenshots/test-results/gallerypage-results.png)
+![Home Page Code](assets/images/website-screenshots/test-results/aboutuspage-results.png)
+![Home Page Code](assets/images/website-screenshots/test-results/submissionpage-results.png)
 
 ### Accessibility
 

@@ -125,6 +125,10 @@ hr{
   .link-image{
     width: 150px;
     height: 80px;
+    vertical-align: 50px;
+  }
+  .info-for-image{
+  
   }
   .link-image:hover{
     background-color: #DCAA68;
