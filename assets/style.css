@@ -84,7 +84,7 @@ hr{
   right:150px;
   top: 5px;
 }
-.images{
+/*.images{
     width: 580px; 
     height: 300px;
     border-radius: 5px;
@@ -97,7 +97,7 @@ hr{
     width: 50vw;
     height: 50vw;
   }
-
+*/
   /*footer style*/
   Footer{
     position: sticky;
@@ -132,11 +132,11 @@ hr{
   }
  
   /*gallery page style*/
-  .gallery-images{
+  /*.gallery-images{
     width: 480px; 
     height: 380px;
     border-radius: 8px;
-  }
+  }*/
   .link-image{
     width: 150px;
     height: 80px;
