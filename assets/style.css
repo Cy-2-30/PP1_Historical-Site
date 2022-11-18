@@ -66,29 +66,49 @@ hr{
   height: inherit;  
   word-spacing: 1.5px;
 }
+.purpose-box{
+  margin: 10px;
+  padding-bottom: 15px;
+}
+.container-purpose{
+  padding-bottom: 10px;
+}
 h2{
   text-transform: capitalize;
 }
 .list-purpose li{
   display: block;
   text-align: left;
-  text-indent: 0px;
+  text-indent: 1px;
   list-style-type: circle;
   }
+.images{
+  width: 240px;
+  height: 160px;
+  border-radius: 4px;
+}
 .image-caption{
-  display: block;
-  color: #54441B;
+  position: absolute;
+  background-color: #54441B;
+  color: #FFF;
+  padding-left: 3px;
+  padding-right: 3px;
   text-transform: capitalize;
   text-align: center;
   font-style: italic;
   font-size: 8px;
 }
-img{
-  width: 200px;
-  height: 160px;
-  border-radius: 4px;
+.image-containter{
+  padding-bottom: 10px;
 }
-}/*media query setting for tablet
+.brief-paragraphy{
+  padding: 5px;
+}
+.dance-image{
+  width: 240px;
+  height: 100px;
+}
+/*media query setting for tablet
   @media only screen and (min-width: 600px) {
    .container{
     position: inline-block;
