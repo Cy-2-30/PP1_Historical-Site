@@ -12,12 +12,15 @@
     font-size: 16px;
     font-weight: 350;
     min-height: 100vh;
+    width: 120%;
+    height: auto;
   }  
   header, footer{
     background-color: #AE7F4D;
+    width: inherit;
+    height: inherit;
   } 
   a{
-    position: relative;
     text-decoration: none;
     cursor: auto;
     z-index: 1;
@@ -33,19 +36,19 @@
  #hero{
   position: inline-block;
   background-color: #867D2C;
-  padding: 0px;
   } 
   .website-header{
-    font-size: 30px;
+    font-size: 20px;
     font: bold;
-    vertical-align: 40px;
+    vertical-align: 25px;
     letter-spacing: 2px;
   }
   #menu-bar{
+    background-color: #AE7F4D;
     text-align: right;
-    font-size: 30px;
+    font-size: 18px;
     letter-spacing: 3px;
-    line-height: 75px;
+    line-height: 45px;
     padding-right: 15px;
   }
   .menu-list a{
@@ -64,8 +67,26 @@ hr{
 }
  /*home page body style*/
   section{
-    padding: 15px 40px 30px 40px;
-    margin: 30px 40px;
+    padding: 10px 10px 30px 40px;
+    margin: 20px 40px;
+    width: 100%;
+    height: auto;
+  }
+  .purpose-box{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 10px;
+    content: "";
+  }
+  .brief-box{
+    display:flex;
+    justify-content: space-between;
+    content: "";
+  }
+  .image-container{
+    margin: 20px;
+    padding: 40px;
   }
   .list-purpose li{
     list-style: circle;
@@ -79,11 +100,11 @@ hr{
 .list-purpose li{
   list-style-type: circle;
 }
-.image-container{
+/*.image-container{
   position: relative;
   right:150px;
   top: 5px;
-}
+}*/
 /*.images{
     width: 580px; 
     height: 300px;
