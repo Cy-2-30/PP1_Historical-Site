@@ -1,11 +1,11 @@
-/*unversal accross all pages for 320px mobile*/
+/*unversal accross all pages for 320px and more mobile*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
 *{
     display: static;
     padding: 0;
     margin: 0;
   }
-  body{
+body{
     background-color: #F0EEC9;
     font-family: 'Source Serif 4', serif;
     color: #180A00;
@@ -13,34 +13,34 @@
     min-height: 100vh;
     width: 100%;
   }  
-  header, footer{
+header, footer{
     background-color: #AE7F4D;
     width: 100%;
     height: inherit;
   } 
-  a{
+a{
     text-decoration: none;
     cursor: auto;
     z-index: 1;
   }
 /*header style*/
- #hero{
+#hero{
   position: inline-block;
   background-color: #867D2C;
   letter-spacing: 2px;
   font-size: 16px;
   } 
-  .website-header{
+.website-header{
     font: bold;
     vertical-align: 20px;
   }
-  #menu-bar{
+#menu-bar{
     background-color: #AE7F4D;
     text-align: center;
     line-height: 25px;
     padding: 5px;
   }
-  .menu-list a{
+.menu-list a{
     display: inline-block;
     border-right: 2px solid #DCAA68;
     margin-inline: 2px;
@@ -55,7 +55,7 @@
 }
 hr{
   border: 1px solid #54441B;
-} 
+  } 
 /*home page body style*/
 section{
   display: block;
@@ -64,17 +64,17 @@ section{
   width: 90%;
   height: inherit;  
   word-spacing: 1.5px;
-}
+  }
 .purpose-box, .brief-box{
   margin: 10px;
   padding-bottom: 15px;
-}
+  }
 .container-purpose, .container-brief{
   padding-bottom: 10px;
 }
 h2{
   text-transform: capitalize;
-}
+  }
 .list-purpose li{
   display: block;
   text-align: left;
@@ -84,7 +84,7 @@ h2{
   width: 240px;
   height: 160px;
   border-radius: 4px;
-}
+  }
 .image-caption{
   position: absolute;
   border-radius: 2px;
@@ -96,17 +96,17 @@ h2{
   text-align: center;
   font-style: italic;
   font-size: 8px;
-}
+  }
 .image-container{
   padding-bottom: 10px;
-}
+  }
 .brief-paragraphy{
   padding: 5px;
-}
+  }
 .dance-image{
   width: 240px;
   height: 100px;
-}
+  }
 /*footer style*/
   Footer{
     color: #FFF;
@@ -119,47 +119,47 @@ h2{
   line-height: 2px;
   text-align: center;
   padding: 15px 0 10px 0;
-}
+  }
 .fontawesome-icons a{
   color:#FFF
-}
+  }
 .facebook-icon :hover{
   color: #3B5A9B;
-}
+  }
 .twitter-icon :hover{
   color: #2B97F1;
-}
+  }
 .instagram-icon :hover{
   color: #f7120e;
-}
+  }
 .linkedin-icon :hover{
   color: #006599;
-}
+  }
 .site-purpose{
     text-align: center;
     padding: 0 0 10px 0;
   }
-/*media query for tablet 600px*/
+/*media query for tablet 600px and more*/
 @media only screen and (min-width: 600px){
   #hero{
     font-size: 18px;
     letter-spacing: 3px;
-  }
+    }
   .website-header{
     vertical-align: 25px;
-  }
+    }
   #menu-bar{
     text-align: end;
     line-height: 30px;
     padding: 8px;
     padding-right: 60px;
-  }
+    }
   section{
     font-size: 16px;
     font-weight: 350px;
     padding: 10px 15px 20px 15px;
     margin: 20px 20px;
-  }
+    }
   .purpose-box{
     display: flex;
     justify-content: space-around; 
@@ -168,38 +168,88 @@ h2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-  }
+    }
   .img-tablet{
     width: 280px;
     height: 180px;
     border-radius: 8px;
-  }
+    }
   .image-container{
-   padding: 0 15px 10px 15px; 
-  }
+    padding: 0 15px 10px 15px;
+    margin: 15px;
+    }
   .dance-image, .container-purpose{
-    margin-top: 20px;
-    padding-top: 20px;
-  }
-  .dance-image{
+    padding-top: 10px;
+    }
+  .dance-img-table{
     width: 280px;
     height: 140px;
     border-radius: 6px;
-  }
+    padding-top: 25px;
+    }
   .image-caption{
     text-align: center;
-  }
+    }
   Footer{
     font-size: 15px;
-  }
+    }
   .fontawesome-icons{
     letter-spacing: 6px;
     font-size: 18px;
     line-height: 5px;
     text-align: center;
+    }
   }
-}
-
+/*media query setting for 1080px and more desktop*/
+@media only screen and (min-width: 1080px) {
+  #hero{
+    font-size: 20px;
+    }
+  .website-header{
+    vertical-align: 30px;
+    }
+  #menu-bar{
+    line-height: 40px;
+    padding: 10px;
+    padding-right: 100px;
+    }
+  section{
+    font-size: 18px;
+    font-weight: 350px;
+    padding: 20px 30px 40px 30px;
+    margin: 25px 25px;
+    }
+  .purpose-box{
+    display: flex;
+    justify-content: space-around; 
+  } 
+  .brief-box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    }
+  .img-tablet{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    }
+  .image-container{
+    padding: 5 30px 20px 30px;
+    margin: 30px;
+    }
+  .dance-img-table{
+    width: 300px;
+    height: 160px;
+    border-radius: 8px;
+    padding-top: 30px;
+    }
+  .fontawesome-icons{
+    letter-spacing: 10px;
+    font-size: 20px;
+    line-height: 8px;
+    text-align: center;
+    }
+  }
   /*gallery page style*/
   /*.gallery-images{
     width: 480px; 
