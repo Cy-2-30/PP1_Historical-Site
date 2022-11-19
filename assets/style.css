@@ -97,6 +97,30 @@
     width: 100%;
     height: auto;
   }
+  /*media query desktop 1080px*/
+@media only screen and (min-width: 1080px) {
+  #hero{
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .website-header{
+    vertical-align: 28px;
+  }
+  #menu-bar{
+    text-align: end;
+    line-height: 30px;
+    padding: 10px;
+  }
+  .fontawesome-icons{
+    letter-spacing: 8px;
+    font-size: 20px;
+  }
+  section{
+    font-size: 20px;
+    word-spacing: 2px;
+    white-space: nowrap;
+  }
+}
   /*gallery page style*/
   .gallery-images{
     width: 480px; 
