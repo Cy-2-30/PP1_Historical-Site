@@ -100,6 +100,9 @@ h2{
 .image-container{
   padding-bottom: 10px;
   }
+.content-container{
+  padding: 5px;
+}
 .brief-paragraph{
   padding: 5px;
   }
@@ -139,6 +142,48 @@ h2{
     text-align: center;
     padding: 0 0 10px 0;
   }
+/*gallery page style*/
+.box-spacing{
+  margin: 25px;
+  padding: 25px;
+}
+.smallbox-spacing{
+  margin: 15px;
+  padding: 15px;
+}
+
+.link-image{
+    width: 75px;
+    height: 40px;
+  }
+.info-for-image{
+    font-size: 8px;
+    width: 110px;
+    height: 50px;
+    white-space: wrap;  
+    overflow: hidden;
+    border: 1px solid #54441B;
+  }
+  .info-for-image:hover{
+    overflow: scroll;
+  }
+  .link-image:hover{
+    background-color: #DCAA68;
+    border: 2px solid #54441B;
+     }
+  #external-links a{
+      color: #54441B;
+      font-style: italic;
+  }
+ .resource-links:hover{
+      text-decoration: underline 5px solid #DCAA68;
+ }  
+ .box{
+  display: flex;
+  justify-content: space-around; 
+  padding-left: 10px;
+  margin: 10px;
+} 
 /*media query for tablet 600px and more*/
 @media only screen and (min-width: 600px){
   #hero{
@@ -189,6 +234,25 @@ h2{
     }
   .image-caption{
     text-align: center;
+    }
+  .overflow-box{
+    height: 200px;
+    width: 1000px;
+    white-space: wrap;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .overflow-box:hover{
+    overflow: scroll;
+  }
+  .box-with-links{
+    font-size:  14px;
+    margin: 30px 0 0 10px;
+    padding: 30px 0 0 20px;
+    height: 350px;
+  }
+  .external-links li{
+    text-align: left;
     }
   Footer{
     font-size: 15px;
@@ -254,26 +318,44 @@ h2{
     line-height: 8px;
     text-align: center;
     }
+    .overflow-box{
+      height: 300px;
+      width: 1500px;
+      white-space: wrap;  
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .overflow-box:hover{
+      overflow: scroll;
+    }
+    .box-with-links important{
+      height: 400px;
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+    .info-for-image{
+      font-size: 14px;
+      width: 180px;
+      height: 100px;
+      white-space: wrap;  
+      overflow: hidden;
+      border: 1px solid #54441B;
+    }
+    .link-image{
+      width: 150px;
+      height: 80px;
+    }
+    .box-with-links{
+      font-size:  16px;
+      margin: 30px 0 0 10px;
+      padding: 30px 0 0 20px;
+      height: 550px;
+    }
+    .external-links li{
+      text-align: left;
+      }
   }
-/*gallery page style*/
-.link-image{
-    width: 150px;
-    height: 80px;
-  }
-.info-for-image{
-    width: 250px;
-    vertical-align: bottom;
-  }
-  .link-image:hover{
-    background-color: #DCAA68;
-    border: 2px solid #54441B;
-     }
-  #external-links a{
-      color: #54441B;
-      font-style: italic;
-  }
- .resource-links:hover{
-      text-decoration: underline 5px solid #DCAA68;    
+
  }/*media query setting for tablet
   @media only screen and (min-width: 600px) {
    .container{
