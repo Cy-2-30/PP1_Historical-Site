@@ -447,6 +447,8 @@ iframe{
       iframe{
         width: 450px;
         height: 280px;
+        padding-right: 10px;
+        margin-right: 10px;
       }
       .box-flow{
         margin-left: 12px;
@@ -459,6 +461,3 @@ iframe{
         margin-right: 5px;
       }
   }
-
- 
-  
