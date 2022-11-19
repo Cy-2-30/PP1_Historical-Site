@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
-/*unversal accross all pages*/
+/*unversal accross all pages for 320px mobile*/
 *{
     display: static;
     padding: 0;
@@ -155,7 +155,7 @@ h2{
     padding: 8px;
   }
   section{
-   
+
   }
   .purpose-box{
     display: flex;
@@ -164,7 +164,7 @@ h2{
   .brief-box{
     display: flex;
     flex-direction: column-reverse;
-    
+
   }
   Footer{
     font-size: 15px;
@@ -304,9 +304,7 @@ iframe{
     border: 2px solid #54441B;
     color: #FFF;
   }
-
   input[type="email"]:focus{
-
   }
   textarea {
     width: 100px;
