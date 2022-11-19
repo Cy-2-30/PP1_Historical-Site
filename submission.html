@@ -11,6 +11,48 @@
         <link rel="stylesheet" href="/assets/style.css">
         <!--fontawesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                text-align:center;
+                display:flex;
+                flex-direction:column;
+                min-height:100vh;
+                min-width: auto;
+                } 
+            @media only screen and (min-width: 320px){
+                .section-content{
+                    height: 480px;
+                    margin: 20px;
+                    padding: 20px;
+                    }  
+            }
+            @media only screen and (min-width: 600px){
+                #hero{
+                    font-size: 18px;
+                    letter-spacing: 3px;
+                    }
+                .website-header{
+                    vertical-align: 25px;
+                    }
+                #menu-bar{
+                    text-align: end;
+                    line-height: 30px;
+                    padding: 8px;
+                    padding-right: 60px;
+                    }
+                .section-content{
+                    height: 800px;
+                    margin: 20px;
+                    padding: 20px;
+                    }  
+            }
+            footer{
+                text-align: center;
+                flex-direction: column-reverse;
+                
+            }
+           
+        </style>
     </head>
     <body>
         <header id="hero">
@@ -26,7 +68,9 @@
             <hr>
         </header>
         <section>
-            <h1>Thank you for your feedback.</h1>
+            <div class="section-content">
+                <h1>Thank you for your feedback.</h1>
+            </div>
         </section>
         <footer>
             <!--social media icons-->

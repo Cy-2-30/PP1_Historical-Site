@@ -112,6 +112,7 @@ h2{
   }
 /*footer style*/
   Footer{
+    flex-direction: column-reverse;
     color: #FFF;
     text-transform: capitalize;
     font-size: 10px;
@@ -184,6 +185,81 @@ h2{
   padding-left: 10px;
   margin: 10px;
 } 
+/*about us page style*/
+.container{
+  text-align: center;
+  padding: 5px 10px 15px 10px;
+  margin: 10px;
+  width: 90%;
+  height: inherit;  
+  word-spacing: 1.5px;
+}
+.headings{
+  text-transform: capitalize;
+}
+iframe{
+  width: 240px;
+  height: 160px;
+}
+/*form syle*/
+  form{
+    border: 2px solid #867D2C;
+    border-radius: 5px;
+    width: 260px;
+    height: 430px;
+  }
+  fieldset{
+    border: none;
+    margin: 5px;
+    padding: 5px;
+  }
+  legend{
+    font-size: large;
+    font-weight: bold;
+  }
+  label{
+    display: block;
+    width: 140px;
+    text-align: right;
+  }
+  .input-style{
+    border: 2px solid #867D2C;
+    border-radius: 4px;
+    background-color: #FFF;
+    height: 20px;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+  }
+  input:focus{
+    background-color: #DCAA68;
+    border: 2px solid #54441B;
+    color: #FFF;
+  }
+   textarea:focus{
+    background-color: #DCAA68;
+    border: 2px solid #54441B;
+    color: #FFF;
+  }
+  textarea{
+    width: 140px;
+    height: 300px;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    resize: vertical; 
+  }
+  .button{
+    border: #DCAA68;
+    background-color: #867D2C;
+    border-radius: 2px;
+    padding: 2px;
+    font-weight: bold;
+    color: #FFF ; 
+  }
+  input[type="submit"]:hover, input[type="reset"]:hover{
+    color:#DCAA68
+  }
+
 /*media query for tablet 600px and more*/
 @media only screen and (min-width: 600px){
   #hero{
@@ -205,10 +281,14 @@ h2{
     padding: 10px 15px 20px 15px;
     margin: 20px 20px;
     }
-  .purpose-box{
+  .purpose-box, .box-flow{
     display: flex;
     justify-content: space-around; 
   } 
+  .box-flow{
+    margin-left: 10px;
+    padding-left: 5px;
+  }
   .brief-box{
     display: flex;
     flex-direction: row-reverse;
@@ -254,6 +334,13 @@ h2{
   .external-links li{
     text-align: left;
     }
+  form{
+    width: 360px;
+    height: 530px;
+  }
+  textarea{
+    height: 100px;
+  }
   Footer{
     font-size: 15px;
     }
@@ -263,7 +350,10 @@ h2{
     line-height: 5px;
     text-align: center;
     }
-  }
+  iframe{
+      width: 300px;
+      height: 200px;
+    }
 /*media query setting for 1080px and more desktop*/
 @media only screen and (min-width: 1080px) {
   #hero{
@@ -283,7 +373,7 @@ h2{
     padding: 20px 30px 40px 30px;
     margin: 25px 25px;
     }
-  .purpose-box{
+  .purpose-box, .box-flow{
     display: flex;
     justify-content: space-around; 
   } 
@@ -354,138 +444,21 @@ h2{
     .external-links li{
       text-align: left;
       }
+      iframe{
+        width: 450px;
+        height: 280px;
+      }
+      .box-flow{
+        margin-left: 12px;
+        padding-left: 8px;
+      }
+      form{
+        width: 550px;
+        height: 530px;
+        padding-right: 5px;
+        margin-right: 5px;
+      }
   }
 
- }/*media query setting for tablet
-  @media only screen and (min-width: 600px) {
-   .container{
-    position: inline-block;
-  }
-.container{
-  display: inline-block;
-}
-  */ /*.gallery-images{
-    width: 480px; 
-    height: 380px;
-    border-radius: 8px;
-  }*/
-
-  /*section{
-    padding: 10px 10px 30px 40px;
-    margin: 20px 40px;
-    width: 100%;
-    height: auto;
-  }
-  .purpose-box{
-    display:flex;
-    justify-content: space-around;
-    padding: 30px;
-    margin: 10px;
-    content: "";
-  }
-  .brief-box{
-    display:flex;
-    justify-content: space-between;
-    content: "";
-  }
-  .image-container{
-    margin: 20px;
-    padding: 40px;
-  }*/
-  /*media query setting
-  @media only screen and (min-width: 600px) {
-    display .brief-box, .purpose-box;
-  }
-  */
-/*.image-container{
-  position: relative;
-  right:150px;
-  top: 5px;
-}*/
-/*.images{
-    width: 580px; 
-    height: 300px;
-    border-radius: 5px;
-  }
-  .dance-image{
-    background-size: 100%;
-    height: ;
-  }
-  .image-container{
-    width: 50vw;
-    height: 50vw;
-  }
-*/
-  /*about us page style*/
-iframe{
-  width: 560px;
-  height: 315px;
-}
-  /*form syle*/
-  form{
-    position: relative;
-    left: 50%;
-    border: 2px solid #867D2C;
-    border-radius: 5px;
-    width: 560px;
-    height: 350px;
-  }
-  fieldset{
-    border: none;
-    margin: 5px;
-    padding: 5px;
-  }
-  legend{
-    font-size: large;
-    font-weight: bold;
-  }
-  label{
-    display: block;
-    width: 140px;
-    text-align: right;
-  }
-  .input-style{
-    border: 2px solid #867D2C;
-    border-radius: 4px;
-    background-color: #FFF;
-    height: 20px;
-    width: fit-content;
-    padding: 5px;
-    margin: 5px;
-  }
-  input:focus{
-    background-color: #DCAA68;
-    border: 2px solid #54441B;
-    color: #FFF;
-  }
-   textarea:focus{
-    background-color: #DCAA68;
-    border: 2px solid #54441B;
-    color: #FFF;
-  }
-  input[type="email"]:focus{
-  }
-  textarea {
-    width: 100px;
-    height: 50px;
-    padding: 12px 15px;
-    box-sizing: border-box;
-    resize: vertical; 
-  }
-  .button{
-    border: #DCAA68;
-    background-color: #867D2C;
-    border-radius: 2px;
-    padding: 2px;
-    font-weight: bold;
-    color: #FFF ; 
-  }
-  input[type="submit"]{
-    
-  }
-  input[type="reset"]{
-    
-  }
-  input[type="submit"]:hover, input[type="reset"]:hover{
-    color:#DCAA68
-  }
+ 
+  
