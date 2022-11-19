@@ -100,7 +100,7 @@ h2{
 .image-container{
   padding-bottom: 10px;
   }
-.brief-paragraphy{
+.brief-paragraph{
   padding: 5px;
   }
 .dance-image{
@@ -233,11 +233,16 @@ h2{
     height: 200px;
     border-radius: 10px;
     }
+  .gallery-images{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+  }
   .image-container{
     padding: 5 30px 20px 30px;
     margin: 30px;
     }
-  .dance-img-table{
+  .dance-img-tablet{
     width: 300px;
     height: 160px;
     border-radius: 8px;
@@ -250,17 +255,12 @@ h2{
     text-align: center;
     }
   }
-  /*gallery page style*/
-  /*.gallery-images{
-    width: 480px; 
-    height: 380px;
-    border-radius: 8px;
-  }*/
-  .link-image{
+/*gallery page style*/
+.link-image{
     width: 150px;
     height: 80px;
   }
-  .info-for-image{
+.info-for-image{
     width: 250px;
     vertical-align: bottom;
   }
@@ -282,7 +282,11 @@ h2{
 .container{
   display: inline-block;
 }
-  */
+  */ /*.gallery-images{
+    width: 480px; 
+    height: 380px;
+    border-radius: 8px;
+  }*/
 
   /*section{
     padding: 10px 10px 30px 40px;
