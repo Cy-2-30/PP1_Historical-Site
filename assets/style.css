@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
-/*unversal accross all pages for mobile*/
+/*unversal accross all pages for 320px mobile*/
 *{
     display: static;
     padding: 0;
@@ -10,7 +10,7 @@
     font-family: 'Source Serif 4', serif;
     color: #180A00;
     font-size: 14px;
-    /*font-weight: 350;*/
+    font-weight: 350;
     min-height: 100vh;
     width: 100%;
   }  
@@ -57,8 +57,8 @@
 hr{
   border: 1px solid #54441B;
 } 
- /*home page body style*/
- section{
+/*home page body style*/
+section{
   display: block;
   padding: 5px 10px 15px 10px;
   margin: 10px 10px;
@@ -66,11 +66,11 @@ hr{
   height: inherit;  
   word-spacing: 1.5px;
 }
-.purpose-box{
+.purpose-box, .brief-box{
   margin: 10px;
   padding-bottom: 15px;
 }
-.container-purpose{
+.container-purpose, .container-brief{
   padding-bottom: 10px;
 }
 h2{
@@ -108,7 +108,100 @@ h2{
   width: 240px;
   height: 100px;
 }
-/*media query setting for tablet
+/*footer style*/
+  Footer{
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 10px;
+  }
+.fontawesome-icons{
+  letter-spacing: 4px;
+  font-size: 15px;
+  line-height: 2px;
+  text-align: center;
+  padding: 15px 0 10px 0;
+}
+.fontawesome-icons a{
+  color:#FFF
+}
+.facebook-icon :hover{
+  color: #3B5A9B;
+}
+.twitter-icon :hover{
+  color: #2B97F1;
+}
+.instagram-icon :hover{
+  color: #f7120e;
+}
+.linkedin-icon :hover{
+  color: #006599;
+}
+.site-purpose{
+    text-align: center;
+    padding: 0 0 10px 0;
+  }
+/*media query for tablet 600px*/
+@media only screen and (min-width: 600px){
+  #hero{
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  .website-header{
+    vertical-align: 25px;
+  }
+  #menu-bar{
+    text-align: end;
+    line-height: 30px;
+    padding: 8px;
+  }
+  section{
+   
+  }
+  .purpose-box{
+    display: flex;
+    justify-content: space-around; 
+  } 
+  .brief-box{
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  Footer{
+    font-size: 15px;
+  }
+  .fontawesome-icons{
+    letter-spacing: 6px;
+    font-size: 18px;
+    line-height: 5px;
+    text-align: center;
+  }
+}
+
+  /*gallery page style*/
+  /*.gallery-images{
+    width: 480px; 
+    height: 380px;
+    border-radius: 8px;
+  }*/
+  .link-image{
+    width: 150px;
+    height: 80px;
+  }
+  .info-for-image{
+    width: 250px;
+    vertical-align: bottom;
+  }
+  .link-image:hover{
+    background-color: #DCAA68;
+    border: 2px solid #54441B;
+     }
+  #external-links a{
+      color: #54441B;
+      font-style: italic;
+  }
+ .resource-links:hover{
+      text-decoration: underline 5px solid #DCAA68;    
+ }/*media query setting for tablet
   @media only screen and (min-width: 600px) {
    .container{
     position: inline-block;
@@ -116,8 +209,7 @@ h2{
 .container{
   display: inline-block;
 }
-  @media only screen and (min-width: 1080px) {
-  }*/
+  */
 
   /*section{
     padding: 10px 10px 30px 40px;
@@ -165,63 +257,6 @@ h2{
     height: 50vw;
   }
 */
-  /*footer style*/
-  Footer{
-    color: #FFF;
-    text-transform: capitalize;
-  }
-.fontawesome-icons{
-  letter-spacing: 8px;
-  font-size: 150%;
-  line-height: 2px;
-  text-align: center;
-  padding: 15px 0 10px 0;
-}
-.fontawesome-icons a{
-  color:#FFF
-}
-.facebook-icon :hover{
-  color: #3B5A9B;
-}
-.twitter-icon :hover{
-  color: #2B97F1;
-}
-.instagram-icon :hover{
-  color: #f7120e;
-}
-.linkedin-icon :hover{
-  color: #006599;
-}
-.site-purpose{
-    text-align: center;
-    padding: 0 0 10px 0;
-  }
- 
-  /*gallery page style*/
-  /*.gallery-images{
-    width: 480px; 
-    height: 380px;
-    border-radius: 8px;
-  }*/
-  .link-image{
-    width: 150px;
-    height: 80px;
-  }
-  .info-for-image{
-    width: 250px;
-    vertical-align: bottom;
-  }
-  .link-image:hover{
-    background-color: #DCAA68;
-    border: 2px solid #54441B;
-     }
-  #external-links a{
-      color: #54441B;
-      font-style: italic;
-  }
- .resource-links:hover{
-      text-decoration: underline 5px solid #DCAA68;    
- }
   /*about us page style*/
 iframe{
   width: 560px;
