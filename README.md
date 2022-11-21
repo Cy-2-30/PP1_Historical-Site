@@ -4,8 +4,8 @@
 
 The website is about the historic origins of the Khoisan people who are known to be the first settlers of South Africa. The websites display historical story about the tribe of Khoisan people. This is portrayed in content, images, video, and resources to learn more are given, in a form of, tourist attraction places to visit. Last, links to other websites for more information is given. 
 
-![Website look][def]
-[Website Link][def]
+![Website look](assets/images/website-screenshots/test-results/responsiveness.png)
+[Github](https://cy-2-30.github.io/PP1_Historical-Site/)
 
 
 ## Table of Content
@@ -227,6 +227,5 @@ __About Us Page__ - Iframe tag require some debugging. Did not have enough time 
 ![About Us Page Code](assets/images/website-screenshots/test-results/aboutuspage-results.png)
 __Submission Page__ - The logo position was not responsive to the style. Did not have enough time and would be implemented in the nest release.
 ![Submission Page Code](assets/images/website-screenshots/test-results/submissionpage-results.png)
-__CSS Styling For All Pages__ - There ar a few errors found. Did not have enough time and would be implemented in the nest release.
+__CSS Styling For All Pages__ - There ar a few errors found. Did not have enough time and would be implemented in the next release.
 ![ CSS Styling For All Pages Code](assets/images/website-screenshots/test-results/csstest.png)
-
